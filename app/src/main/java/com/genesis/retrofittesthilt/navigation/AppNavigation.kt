@@ -19,13 +19,11 @@ fun AppNavigation() {
         }
         composable(Screen.WelcomeScreen.route) {
             WelcomeScreen(onContinueClick = {
-                navController.navigate(Screen.HomeScreen.route) {
-                    popUpTo(Screen.WelcomeScreen.route) { inclusive = true }
-                }
+                navController.navigate(Screen.HomeScreen.route)
             })
         }
         composable(Screen.HomeScreen.route) {
-            HomeScreen()
+            HomeScreen(navController = navController)
         }
     }
 }

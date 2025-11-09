@@ -7,6 +7,7 @@ This is a sample Android application built to demonstrate modern Android develop
 - **Splash Screen**: A branded launch screen.
 - **Welcome Screen**: A simple introductory screen.
 - **Product Grid**: Fetches a list of products from a fake store API and displays them in a grid.
+- **Custom TopAppBar**: A custom top app bar on the home screen with back navigation and a themed title.
 
 ## 🏛️ Architecture
 
@@ -83,12 +84,12 @@ To prevent circular dependencies, navigation routes are defined in a `Screen.kt`
 
 ## 🪪 License
 
-Copyright (c) 2025 [Abdul Hanan Khan]
+Copyright (c) 2025 Abdul Hanan Khan
 
 Licensed under the MIT License. You may use, copy, modify, and distribute this software for any purpose, provided that the above copyright notice and this permission notice are included in all copies or substantial portions of the Software.
 
 ## 💬 Contact
 
-- **Author**: [Abdul Hanan Khan]
-- **Email**: [ahkhan622@gmail.com]
+- **Author**: Abdul Hanan Khan
+- **Email**: ahkhan622@gmail.com
 - **GitHub**: @Ahkh56
